@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var maximum_stories = 10;
+      var userinput = prompt("On what floor of the building is your office?");
+      var usernum = parseInt(userinput);
+
+      while (usernum < maximum_stories) {
+        console.log("Enter another number please");
+        var userinput = prompt("On what floor of the building is your office?");
+        var usernum = parseInt(userinput);
+
+      }
+
+      console.log("Congrats, " + usernum + "is a valid number");
+
+
+    </script>
+  </body>
+</html>
